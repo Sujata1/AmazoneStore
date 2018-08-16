@@ -52,3 +52,9 @@ c. View Low inventory products
 
 d. Add To Inventory
 
+
+![amazonmanagerfig4](https://user-images.githubusercontent.com/5023549/44233888-1a56b080-a173-11e8-9a56-359ddcfce925.png)
+
+![amazonmanagerfig5](https://user-images.githubusercontent.com/5023549/44233889-1a56b080-a173-11e8-90ff-c49339196541.png)
+
+
