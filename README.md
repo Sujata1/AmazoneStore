@@ -33,18 +33,21 @@ a. Run command "node bamazonCustomer.js".
 
  d. At this point you may continue to order more prodcucts or exit. 
 
-# 2. Managers
+# 2. Manager
   
- a. Run command "node bamazonManager.js"
+ a. Run command "node bamazonManager.js".Select from following options.
 
-#Add screen shot
+![amazonmanagerfig1](https://user-images.githubusercontent.com/5023549/44232632-a23abb80-a16f-11e8-8185-868502309904.png)
 
-Select from following options
+ b. View Product Sales
+![amazonmanagerfig2](https://user-images.githubusercontent.com/5023549/44232633-a23abb80-a16f-11e8-8044-fed96791476b.png)
+![amazonmanagerfig3](https://user-images.githubusercontent.com/5023549/44232634-a2d35200-a16f-11e8-866e-deee11dcb8e6.png)
+![amazonmanagerfig4](https://user-images.githubusercontent.com/5023549/44232635-a2d35200-a16f-11e8-82b9-bb345e5a2e8c.png)
+![amazonmanagerfig5](https://user-images.githubusercontent.com/5023549/44232636-a2d35200-a16f-11e8-8fe6-91b8ff3e20fb.png)
 
-    a. View Product Sales
 
-    #Add screen shot
 
+   
     b. View Low Inventory products
     #Add screen shot
 
