@@ -8,14 +8,14 @@ Project: Amazon_Store
  Provides summary of the highest-grossing departments in the store.
 
 # Commands to use this app
-# 1   Customers
+# 1.   Customers
     
-    Run command "node bamazonCustomer.js"
-![amazoncustomerig1](https://user-images.githubusercontent.com/5023549/44229478-2f791280-a166-11e8-9c6a-f5d79ec43456.png)
+    a. Run command "node bamazonCustomer.js".
+       App will show products available for sale.
+    
+      ![amazoncustomerig1](https://user-images.githubusercontent.com/5023549/44229478-2f791280-a166-11e8-9c6a-f5d79ec43456.png)
 
-    #Add screen shot 
-
-    Enter product id and quantity you would like to purchase
+    b. Enter product id and quantity you would like to purchase
 
     #Add screen shot
 
