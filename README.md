@@ -11,7 +11,7 @@ Project: Amazon_Store
 # 1   Customers
     
     Run command "node bamazonCustomer.js"
-![Test Image 1](https://github.com/Sujata1/AmazoneStore/blob/master/Screenshots/amazon%20Customer%20fig1.png)
+![amazoncustomerig1](https://user-images.githubusercontent.com/5023549/44229478-2f791280-a166-11e8-9c6a-f5d79ec43456.png)
 
     #Add screen shot 
 
