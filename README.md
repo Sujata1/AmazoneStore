@@ -13,7 +13,7 @@ Project: Amazon_Store
     a. Run command "node bamazonCustomer.js".
        App will show products available for sale.
     
-      ![amazoncustomerig1](https://user-images.githubusercontent.com/5023549/44229478-2f791280-a166-11e8-9c6a-f5d79ec43456.png)
+      ![amazoncustomerig1](https://github.com/Sujata1/AmazoneStore/blob/master/Screenshots/amazonCustomerig1.png)
 
     b. Enter product id and quantity you would like to purchase
        
