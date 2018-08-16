@@ -10,8 +10,8 @@ Project: Amazon_Store
 # Commands to use this app
 # 1  Customers
     
-    Run command "node bamazonCustomer.js".
-    App will show products available for sale.
+    Run command "node bamazonCustomer.js"
+    App will show products available for sale
     
      ![amazoncustomerig1](https://user-images.githubusercontent.com/5023549/44230285-ba5b0c80-a168-11e8-91f5-8e6652f013bc.png)
 
