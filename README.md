@@ -23,17 +23,19 @@ a. Run command "node bamazonCustomer.js".
       
  c. Customer will be prompted for wrong product ID and invalid order quanntity (Check following images).
  
-![amazoncustomerig3](https://user-images.githubusercontent.com/5023549/44231046-dbbcf800-a16a-11e8-9008-77f059eb2c1e.png)
+   ![amazoncustomerig3](https://user-images.githubusercontent.com/5023549/44231046-dbbcf800-a16a-11e8-9008-77f059eb2c1e.png)
+
+   ![amazoncustomerig4](https://user-images.githubusercontent.com/5023549/44231796-496a2380-a16d-11e8-9640-3366f93aabe2.png)
 
  c. If no errors then order will be accespted and app will show invoice details to customer.
 
-    #Add screen shot
+   ![amazoncustomerig5](https://user-images.githubusercontent.com/5023549/44231797-496a2380-a16d-11e8-8bce-5c64ee131532.png)
 
-    At this point you may continue to order more prodcucts or exit 
+ d. At this point you may continue to order more prodcucts or exit. 
 
-2 Managers
-  --------
-Run command "node bamazonManager.js"
+# 2. Managers
+  
+ a. Run command "node bamazonManager.js"
 
 #Add screen shot
 
