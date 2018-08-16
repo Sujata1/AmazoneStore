@@ -19,6 +19,8 @@ Project: Amazon_Store
        
        App will give error if store has insufficient quantity andprompt you to enter another quantity.
        
+       ![amazoncustomerfig2](https://user-images.githubusercontent.com/5023549/44229873-6a2f7a80-a167-11e8-92e7-284f5e72126e.png)
+
 
     app will give error for wrong item quantity format
 
