@@ -6,17 +6,17 @@ Project: Amazon_Store
  Take in orders from customers and deplete stock from the store's inventory. 
  Track product sales across store's departments
  Provides summary of the highest-grossing departments in the store.
- ![amazoncustomerig1](https://user-images.githubusercontent.com/5023549/44230285-ba5b0c80-a168-11e8-91f5-8e6652f013bc.png)
+
 # Commands to use this app
-# 1.   Customers
+# 1  Customers
     
-    a. Run command "node bamazonCustomer.js".
-       App will show products available for sale.
+    Run command "node bamazonCustomer.js".
+    App will show products available for sale.
     
-    
+     ![amazoncustomerig1](https://user-images.githubusercontent.com/5023549/44230285-ba5b0c80-a168-11e8-91f5-8e6652f013bc.png)
 
 
-    b. Enter product id and quantity you would like to purchase
+    b Enter product id and quantity you would like to purchase
        
        App will give error if store has insufficient quantity andprompt you to enter another quantity.
        
