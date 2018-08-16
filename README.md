@@ -18,9 +18,11 @@ Project: Amazon_Store
 
  Enter product id and quantity you would like to purchase.
  App will give error if store has insufficient quantity and prompt you to enter another quantity.
-       
-     
-    app will give error for wrong item quantity format
+ 
+ #add screen shot amazonCustomerFig2.png
+      
+ Customer will be prompted for wrong product ID and invalid order quanntity (Check following images)
+ 
 
     Once finished, app will check if product is valid.
 
