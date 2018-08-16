@@ -16,8 +16,9 @@ Project: Amazon_Store
       ![amazoncustomerig1](https://user-images.githubusercontent.com/5023549/44229478-2f791280-a166-11e8-9c6a-f5d79ec43456.png)
 
     b. Enter product id and quantity you would like to purchase
-
-    #Add screen shot
+       
+       App will give error if store has insufficient quantity andprompt you to enter another quantity.
+       
 
     app will give error for wrong item quantity format
 
