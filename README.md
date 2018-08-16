@@ -23,6 +23,7 @@ Project: Amazon_Store
       
  Customer will be prompted for wrong product ID and invalid order quanntity (Check following images)
  
+![amazoncustomerig3](https://user-images.githubusercontent.com/5023549/44231046-dbbcf800-a16a-11e8-9008-77f059eb2c1e.png)
 
     Once finished, app will check if product is valid.
 
