@@ -8,6 +8,7 @@ Project: Amazon_Store
  Provides summary of the highest-grossing departments in the store.
 
 # Commands to use this app
+## p.s. Product validation, Integer validation, Float Validation is same across all the options. I have not repeated these validations for each module. Please find all validation in Customer module. I have provided information of validations specific to other modules
 # 1.  Customers
 
 a. Run command "node bamazonCustomer.js".
@@ -41,7 +42,10 @@ a. Run command "node bamazonCustomer.js".
 
  b. View Product Sales
 ![amazonmanagerfig2](https://user-images.githubusercontent.com/5023549/44232633-a23abb80-a16f-11e8-8044-fed96791476b.png)
+
+c. View Low inventory products
 ![amazonmanagerfig3](https://user-images.githubusercontent.com/5023549/44232634-a2d35200-a16f-11e8-866e-deee11dcb8e6.png)
+
 ![amazonmanagerfig4](https://user-images.githubusercontent.com/5023549/44232635-a2d35200-a16f-11e8-82b9-bb345e5a2e8c.png)
 ![amazonmanagerfig5](https://user-images.githubusercontent.com/5023549/44232636-a2d35200-a16f-11e8-8fe6-91b8ff3e20fb.png)
 
