@@ -8,30 +8,24 @@ Project: Amazon_Store
  Provides summary of the highest-grossing departments in the store.
 
 # Commands to use this app
-# 1  Customers
+# 1.  Customers
 
- Run command "node bamazonCustomer.js".
- App will show products available for sale.
+a. Run command "node bamazonCustomer.js".
+   App will show products available for sale.
  
-![amazoncustomerig1](https://user-images.githubusercontent.com/5023549/44230285-ba5b0c80-a168-11e8-91f5-8e6652f013bc.png)
+  ![amazoncustomerig1](https://user-images.githubusercontent.com/5023549/44230285-ba5b0c80-a168-11e8-91f5-8e6652f013bc.png)
      
 
- Enter product id and quantity you would like to purchase.
- App will give error if store has insufficient quantity and prompt you to enter another quantity.
+ b. Enter product id and quantity you would like to purchase.
+    App will give error if store has insufficient quantity and prompt you to enter another quantity.
  
- #add screen shot amazonCustomerFig2.png
+   ![amazoncustomerfig2](https://user-images.githubusercontent.com/5023549/44231143-19ba1c00-a16b-11e8-8e9a-b3a36c2bc50e.png)
       
- Customer will be prompted for wrong product ID and invalid order quanntity (Check following images)
+ c. Customer will be prompted for wrong product ID and invalid order quanntity (Check following images).
  
 ![amazoncustomerig3](https://user-images.githubusercontent.com/5023549/44231046-dbbcf800-a16a-11e8-9008-77f059eb2c1e.png)
 
-    Once finished, app will check if product is valid.
-
-    If product is not valid, followin error message will be displayed
-
-    #Add screen shot
-
-    If product is valid, then you order is completed and invoice will be dieplayed
+ c. If no errors then order will be accespted and app will show invoice details to customer.
 
     #Add screen shot
 
