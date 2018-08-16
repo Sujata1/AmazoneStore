@@ -77,7 +77,7 @@ function checkOrder(itemid, ordQty) {
           updateProduct(itemid, stockQty, price, ordQty, productSales, product);
         }
         else {
-          console.log("\033[31m", "\n  Insufficient Stock Try Again!!\n", "\x1b[0m\n");
+          console.log("\033[31m", "\n  Sorry we have only "+stockQty+ " in Stock Try Again!!\n", "\x1b[0m\n");
           startPurchaseItem();
         }
       }

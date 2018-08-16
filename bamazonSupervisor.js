@@ -15,8 +15,8 @@ clrScr();
 selectOptions();
 
 function selectOptions() {
-    console.log("\nAmazon Supervisor Module");
-    console.log("---------------------------------------------------------\n");
+    console.log("\n Amazon Supervisor Module");
+    console.log(" ---------------------------------------------------------\n");
     inquirer.prompt([{
         type: 'list',
         name: 'option',
@@ -40,8 +40,8 @@ function displayProductSales() {
     });
     connection.query("SELECT department_id, IFNULL(SUM(products.product_sale),0) as totalSales, over_head_costs,departments.department_name FROM departments LEFT OUTER JOIN products ON  departments.department_name = products.department_name GROUP BY departments.department_name ORDER BY totalSales DESC", function (err, res) {
         clrScr();
-        console.log("\nDepartment Sales");
-        console.log("---------------------------------------------------------\n");
+        console.log("\n Department Sales");
+        console.log(" ---------------------------------------------------------\n");
         if (err) throw err;
         for (var i = 0; i < res.length; i++) {
             var total_profit = 0;
@@ -58,13 +58,13 @@ function displayProductSales() {
 };
 
 function startSelection() {
-    console.log("\n---------------------------------------------------------\n");
+    console.log("\n ---------------------------------------------------------\n");
     selectOptions();
 };
 
 function prompAddDepartment() {
-    console.log("\nAdd Department");
-    console.log("---------------------------------------------------------\n");
+    console.log("\n Add Department");
+    console.log(" ---------------------------------------------------------\n");
     inquirer.prompt([
         {
             name: "dept",
@@ -89,7 +89,7 @@ function processAddDepartment(newDept) {
         if (!err) {
             if (res.length > 0) {
                 clrScr();
-                console.log("\n", "\033[31m", "Department " + newdept + " already exists.. Try Again!!", "\x1b[0m\n");
+                console.log("\n", "\033[31m", " Department " + newdept + " already exists.. Try Again!!", "\x1b[0m\n");
                 prompAddDepartment();
             }
             else {
@@ -112,7 +112,7 @@ function addDepartment(newDept) {
             }
             else {
                 clrScr();
-                console.log("\n", "\033[32m", "Department " + newDept.dept + " added successfully", "\x1b[0m\n");
+                console.log("\n", "\033[32m", " Department " + newDept.dept + " added successfully", "\x1b[0m\n");
                 startSelection();
             }
         }

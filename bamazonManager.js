@@ -17,8 +17,8 @@ getDepartments(dept_option);
 startSelection();
 
 function startSelection() {
-    console.log("\nAmazon Manager Module");
-    console.log("---------------------------------------------------------\n");
+    console.log("\n Amazon Manager Module");
+    console.log(" ---------------------------------------------------------\n");
     selectOptions();
 };
 
@@ -47,8 +47,8 @@ function displayProducts() {
     });
     connection.query("SELECT * FROM products", function (err, res) {
         clrScr();
-        console.log("\Products For Sale");
-        console.log("---------------------------------------------------------\n");
+        console.log("\n Products For Sale");
+        console.log(" ---------------------------------------------------------\n");
         if (err) throw err;
         for (var i = 0; i < res.length; i++) {
             table.push(
@@ -68,8 +68,8 @@ function displayLowInventory() {
     });
     connection.query("SELECT * FROM products", function (err, res) {
         clrScr();
-        console.log("Products With Low Inventory");
-        console.log("---------------------------------------------------------\n");
+        console.log("\n Products With Low Inventory");
+        console.log(" ---------------------------------------------------------\n");
         if (err) throw err;
         for (var i = 0; i < res.length; i++) {
             if (res[i].stock_quantity < 20) {
@@ -84,8 +84,8 @@ function displayLowInventory() {
 };
 
 function addStock() {
-    console.log("\nAdd Inventory");
-    console.log("---------------------------------------------------------\n");
+    console.log("\n Add Inventory");
+    console.log(" ---------------------------------------------------------\n");
     inquirer.prompt([
         {
             name: "id",
@@ -115,7 +115,7 @@ function processStockQuantity(itemid, addqty) {
                 updateProduct(itemid, addqty, res[0].stock_quantity, res[0].product_name);
             }
             else {
-                console.log("\033[31m", "Item not found.. Try Again!!", "\x1b[0m\n");
+                console.log("\033[31m", " Item not found.. Try Again!!", "\x1b[0m\n");
                 addStock();
             }
         }
@@ -137,9 +137,9 @@ function updateProduct(itemid, addQty, current_stock, product) {
         function (err, res) {
             if (err) throw err;
             clrScr();
-            console.log("\Inventory Added");
-            console.log("---------------------------------------------------------\n", "\033[32m");
-            console.log("You Added  " + addQty + " quantity to " + product + "\n");
+            console.log("\n Inventory Added");
+            console.log(" ---------------------------------------------------------\n", "\033[32m");
+            console.log(" You Added  " + addQty + " quantity to " + product + "\n");
             confirmAddStock();
         }
     );
@@ -167,8 +167,8 @@ function confirmAddStock() {
 
 function prompAddProduct() {
     clrScr();
-    console.log("\nAdd Product");
-    console.log("---------------------------------------------------------\n");
+    console.log("\n Add Product");
+    console.log(" ---------------------------------------------------------\n");
 
     inquirer.prompt([
         {
@@ -207,7 +207,7 @@ function processAddProduct(newProduct) {
         if (!err) {
             if (res.length > 0) {
                 clrScr();
-                console.log("\033[31m", "Product " + newItem + " already exists.. Try Again!!", "\x1b[0m\n");
+                console.log("\033[31m", " Product " + newItem + " already exists.. Try Again!!", "\x1b[0m\n");
                 prompAddProduct();
             }
             else {
@@ -232,7 +232,7 @@ function addProduct(newProduct) {
             if (err) { console.log(err) }
             else {
                 clrScr();
-                console.log("\n", "\033[32m", "product "+newFmtProduct+" added successully!!!", "\x1b[0m\n");
+                console.log("\n", "\033[32m", " product "+newFmtProduct+" added successully!!!", "\x1b[0m\n");
                 startSelection();
             }
         }
