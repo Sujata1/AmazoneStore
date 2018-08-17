@@ -36,7 +36,7 @@ a. Run command "node bamazonCustomer.js".
 
 # 2. Manager
   
-a. Run command "node bamazonManager.js".Select from following options.
+a. Run command "node bamazonManager.js. Select from following options.
 
 ![amazonmanagerfig1](https://user-images.githubusercontent.com/5023549/44232632-a23abb80-a16f-11e8-8185-868502309904.png)
 
@@ -45,6 +45,7 @@ b. View Product Sales.
 
 
 ![amazonmanagerfig2](https://user-images.githubusercontent.com/5023549/44232633-a23abb80-a16f-11e8-8044-fed96791476b.png)
+
 c. View Low inventory products
 
 
@@ -52,9 +53,23 @@ c. View Low inventory products
 
 d. Add To Inventory
 
-
 ![amazonmanagerfig4](https://user-images.githubusercontent.com/5023549/44233888-1a56b080-a173-11e8-9a56-359ddcfce925.png)
 
 ![amazonmanagerfig5](https://user-images.githubusercontent.com/5023549/44233889-1a56b080-a173-11e8-90ff-c49339196541.png)
+
+
+
+
+
+
+e. Add New Product
+
+
+
+
+
+
+
+![amazonmanagerfig6](https://user-images.githubusercontent.com/5023549/44283960-ef7d6280-a22d-11e8-9444-fca5fc9b7926.png)
 
 
