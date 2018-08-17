@@ -68,9 +68,15 @@ e. Add New Product
  
 ![amazonmanagerfig7](https://user-images.githubusercontent.com/5023549/44283961-ef7d6280-a22d-11e8-9b5d-d78f612f468d.png)
 
+Re-enter product
+
+![amazonmanagerfig9](https://user-images.githubusercontent.com/5023549/44286380-e644c380-a236-11e8-9c14-34a753e81445.png)
+
 Following message is shown if product is added successfully
 
 ![amazonmanagerfig8](https://user-images.githubusercontent.com/5023549/44283963-f015f900-a22d-11e8-8289-ba9694a6d202.png)
 
+ 
+ # 2. Supervisor
  
 
