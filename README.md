@@ -77,6 +77,23 @@ Following message is shown if product is added successfully
 ![amazonmanagerfig8](https://user-images.githubusercontent.com/5023549/44283963-f015f900-a22d-11e8-8289-ba9694a6d202.png)
 
  
- # 2. Supervisor
+ # 3. Supervisor
+ 
+a. Run command "node bamazonSuperVisor.js. Select from following options.
+
+![amazonsupervisor1](https://user-images.githubusercontent.com/5023549/44287506-11c9ad00-a23b-11e8-97c3-2c091d9bc3a4.png)
+
+b. View Prodcut sles by Department
+
+![amazonsupervisor2](https://user-images.githubusercontent.com/5023549/44287507-11c9ad00-a23b-11e8-92d2-6e2f2c5dd304.png)
+
+c. Add new Department
+
+![amazonsupervisor3](https://user-images.githubusercontent.com/5023549/44287508-11c9ad00-a23b-11e8-8c28-c0c56dd15630.png)
+
+App will give error if department already exists in deaprtments table.
+
+
+![amazonsupervisor4](https://user-images.githubusercontent.com/5023549/44287509-11c9ad00-a23b-11e8-8d29-3b03fe51a6f7.png)
  
 
