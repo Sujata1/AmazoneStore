@@ -59,17 +59,18 @@ d. Add To Inventory
 
 
 
-
-
-
 e. Add New Product
-
-
-
-
-
 
 
 ![amazonmanagerfig6](https://user-images.githubusercontent.com/5023549/44283960-ef7d6280-a22d-11e8-9444-fca5fc9b7926.png)
 
+ App will give error if product already exists in product table.
+ 
+![amazonmanagerfig7](https://user-images.githubusercontent.com/5023549/44283961-ef7d6280-a22d-11e8-9b5d-d78f612f468d.png)
+
+Following message is shown if product is added successfully
+
+![amazonmanagerfig8](https://user-images.githubusercontent.com/5023549/44283963-f015f900-a22d-11e8-8289-ba9694a6d202.png)
+
+ 
 
