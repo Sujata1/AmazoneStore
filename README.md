@@ -83,7 +83,7 @@ a. Run command "node bamazonSuperVisor.js. Select from following options.
 
 ![amazonsupervisor1](https://user-images.githubusercontent.com/5023549/44287506-11c9ad00-a23b-11e8-97c3-2c091d9bc3a4.png)
 
-b. View Prodcut sles by Department
+b. View Product sales by Department
 
 ![amazonsupervisor2](https://user-images.githubusercontent.com/5023549/44287507-11c9ad00-a23b-11e8-92d2-6e2f2c5dd304.png)
 
@@ -94,6 +94,16 @@ c. Add new Department
 App will give error if department already exists in deaprtments table.
 
 
+![amazonsupervisor6](https://user-images.githubusercontent.com/5023549/44287801-1a6eb300-a23c-11e8-962a-90caf2a9f7fb.png)
+
+
+Re-enter Department
+
+
 ![amazonsupervisor4](https://user-images.githubusercontent.com/5023549/44287509-11c9ad00-a23b-11e8-8d29-3b03fe51a6f7.png)
  
 
+Following message is shown if Department is added successfully
+
+
+![amazonsupervisor5](https://user-images.githubusercontent.com/5023549/44287510-11c9ad00-a23b-11e8-8a9d-06553b55e8a6.png)
