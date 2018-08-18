@@ -1,0 +1,5 @@
+$ git clone https://github.com/Sujata1/project1.git
+$ cd project1
+$ touch addToProject1.html
+$ git commit -m "Added html file to project1"
+$ git push origin master

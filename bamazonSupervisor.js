@@ -84,7 +84,7 @@ function prompAddDepartment() {
 };
 
 function processAddDepartment(newDept) {
-    var newdept = newDept.dept.toUpperCase();
+    var newdept = newDept.dept.toUpperCase().trim();
     var query = connection.query("SELECT * FROM departments WHERE UPPER(department_name)=?", [newdept], function (err, res) {
         if (!err) {
             if (res.length > 0) {

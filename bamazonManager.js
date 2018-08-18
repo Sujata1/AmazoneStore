@@ -166,7 +166,7 @@ function confirmAddStock() {
 };
 
 function prompAddProduct() {
-    clrScr();
+   
     console.log("\n Add Product");
     console.log(" ---------------------------------------------------------\n");
 
@@ -202,12 +202,12 @@ function prompAddProduct() {
 };
 
 function processAddProduct(newProduct) {
-    var newItem = fmtStr.capitalizeString(newProduct.item);
+    var newItem = fmtStr.capitalizeString(newProduct.item.trim());
     var query = connection.query("SELECT * FROM products WHERE product_name=?", [newItem], function (err, res) {
         if (!err) {
             if (res.length > 0) {
                 clrScr();
-                console.log("\033[31m", " Product " + newItem + " already exists.. Try Again!!", "\x1b[0m\n");
+                console.log("\033[31m", "\n Product " + newItem + " already exists.. Try Again!!", "\x1b[0m\n");
                 prompAddProduct();
             }
             else {
